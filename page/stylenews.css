@@ -1,0 +1,71 @@
+ a {
+ color:white;
+ font-size:140% ;
+ text-align:center
+} 
+
+
+div{
+	color:white;
+	text-align:center
+}
+b{
+   	color:white;
+	text-align:center
+}
+
+p {
+	text-align:center;
+	
+}
+ 
+.images {
+	text-align: center;
+} 
+
+.line {
+	color:white 
+}
+
+.tovar {
+	text-align:center
+}
+
+html {
+  background-image: url(../files/Images/fon1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
