@@ -1,0 +1,110 @@
+ a {
+ color:white; 
+ font-size:140%;
+} 
+
+
+
+div{
+	color:white;
+	text-align:center
+}
+
+ 
+h1 {
+		color:white;
+		text-align:center
+ 
+}
+
+
+p {
+	text-align:center;
+	
+}
+
+.tovar {
+	text-align:center
+}
+
+.putin {
+	text-align:left
+}
+
+.iloveukraine {
+	text-align:right
+}
+	
+html {
+  background-image: url(../files/Images/warbackground2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.btn-html {
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  background: rgba(20, 20, 20, 0.5);
+} 
+
+.btn-logo {
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  background: rgba(20, 20, 20, 0);
+} 
+
+#slide_lft{
+position: fixed;
+top: 0px;
+left: -12px;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+color:#fff;
+padding:0px;
+}
+#slide_in {
+position: fixed;
+min-height:2000px;
+top: 0px;
+left: -270px;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+box-shadow:0 0 5px #777;
+background: rgba(20, 20, 20, 0.5);
+color:#fff;
+width:250px;
+padding:10px;
+box-sizing:padding-box;
+}
+#slide_lft:hover {
+left: 250px;
+}
+#slide_lft:hover #slide_in {
+left: 0;
+}
